@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#table{
+	height: 450px;
+	width: 800px;
+	background-color: black;
+	background-image: url(images/background.jpeg);
+}
+
+#ball{
+	height:20px;
+	width:20px;
+	background-color: red;
+	border-radius:50%;
+    position:fixed;
+    top: 200px;
+    left:375px;
+    background: linear-gradient(red, pink);
+}
+
+#side1{
+	height:80px;
+	width:20px;
+	background-color: yellow;
+	position: fixed;
+	top:185px;
+	background: linear-gradient(grey, blue);
+}
+
+#side2{
+	height:80px;
+	width:20px;
+	background-color: yellow;
+	position: fixed;
+	top:185px;
+	left:780px;
+	background: linear-gradient(blue, grey);
+}
+#button{
+	
+	color: blue;
+	position: fixed;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	left: 10px;
+}
